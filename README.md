@@ -1,6 +1,6 @@
 ## Timeline : 
 May 5th , 2020
-## Progress 
+## Progress :
 <ul>
   <li>ML Model : Done</li>
   <li>Tensorflow js conversion : Done</li>
@@ -8,9 +8,9 @@ May 5th , 2020
   <li>Prediction on test images : Working (Done)</li>
 </ul>
 
-# RPC_Game
+# RPC_Game :
 A rock paper scissor game on web
-## Requirements
+## Requirements :
 1 . ML Model
 <ul>
   <li>1 . To develope a Machine Learning algorithm to classify and detect the rock paper and scissor hand gestures</li>
