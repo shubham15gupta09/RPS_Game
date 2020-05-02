@@ -14,6 +14,6 @@ A rock paper scissor game on web
 3 . Deployment
 <ul>
   <li>1 . localhost:8000 </li>
-  <li>2 . Virtual Mazhine ( weither in GCloud or Azure )</li>
+  <li>2 . Virtual Machine ( weither in GCloud or Azure )</li>
   <li>3 . Docker Image</li>
 </ul>
