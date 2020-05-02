@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"> </script>
+</head>
+
+<body>
+    <img id="img1" src="paper1.png"></img>
+    <div id="output1" style="font-size:24px;"></div>
+    <br>
+    <img id="img2" src="rock1.png"></img>
+    <div id="output2" style="font-size:24px;"></div>
+    <br>
+    <img id="img3" src="scissors1.png"></img>
+    <div id="output3" style="font-size:24px;"></div>
+    <br>
+</body>
+<script>
+    async function run() {
+        function naming (x){
+            if (x[0]===1)
+                return "Paper";
+            if (x[1]===1)
+                return "Rock";
+            if (x[2]===1)
+                return "Scissor";            
+        }
+        const url_model = 'http://127.0.0.1:8887/model.json';
+        const model = await tf.loadLayersModel(url_model);
+        console.log(model.summary());
+
+        const img1 = document.getElementById('img1');
+        let tensor1 = tf.browser.fromPixels(img1).resizeNearestNeighbor([150, 150]).toFloat().expandDims();
+        const img2 = document.getElementById('img2');
+        let tensor2 = tf.browser.fromPixels(img2).resizeNearestNeighbor([150, 150]).toFloat().expandDims();
+        const img3 = document.getElementById('img3');
+        let tensor3 = tf.browser.fromPixels(img3).resizeNearestNeighbor([150, 150]).toFloat().expandDims();
+
+        let pred1 = await model.predict(tensor1).data();
+        const outp1 = document.getElementById('output1');
+        outp1.innerHTML += naming(pred1) ;
+
+        let pred2 = await model.predict(tensor2).data();
+        const outp2 = document.getElementById('output2');
+        outp2.innerHTML += naming(pred2) ;
+
+        let pred3 = await model.predict(tensor3).data();      
+        const outp3 = document.getElementById('output3');
+        outp3.innerHTML += naming(pred3) ;
+    }
+    run();
+</script>
+</body>
+
+</html>
+
