@@ -1,3 +1,7 @@
+Want to contribute ?? :\ <br>
+Welcome !!! :)<br>
+Just fork this repo and start working . Check the Requirements below <br>
+Waiting for your PR
 ## Timeline : 
 May 5th , 2020
 ## Progress :
