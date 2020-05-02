@@ -3,7 +3,7 @@ Welcome !!! :)<br>
 Just fork this repo and start working . Check the Requirements below <br>
 Waiting for your PR
 ## Timeline : 
-May 5th , 2020
+May 5th 20 , 11.59 pm IST
 ## Progress :
 <ul>
   <li>ML Model : Done</li>
