@@ -1,5 +1,5 @@
 ## Timeline : 
-5th  , May , 2020
+May 5th , 2020
 ## Progress 
 <ul>
   <li>ML Model : Done</li>
