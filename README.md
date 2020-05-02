@@ -18,7 +18,7 @@ A rock paper scissor game on web
 </ul>
 2 . Web App
 <ul>
-  <li>1 . Front -End :  UI for the Web Game ( It should contain a DIV which can render live damera feed so that a frame can be crapture fo playing the game) </li>
+  <li>1 . Front -End :  UI for the Web Game ( It should contain a DIV which can render live damera feed so that a frame can be craptured for playing the game) </li>
   <li>2 . Back-End : for Routes and integrating the Tensorflow JS </li>
 </ul>
 3 . Deployment
