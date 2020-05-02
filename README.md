@@ -1,3 +1,13 @@
+## Timeline : 
+5th  , May , 2020
+## Progress 
+<ul>
+  <li>ML Model : Done</li>
+  <li>Tensorflow js conversion : Done</li>
+  <li>Basic Web Page : Done</li>
+  <li>Prediction on test images : Working (Done)</li>
+</ul>
+
 # RPC_Game
 A rock paper scissor game on web
 ## Requirements
