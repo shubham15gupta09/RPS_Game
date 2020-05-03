@@ -1,6 +1,7 @@
 <html>
 
 <head>
+    <link rel="shortcut icon" href="#" /> <!-- to fix the favicon.ico error in console log -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"> </script>
 </head>
@@ -26,16 +27,20 @@
             if (x[2]===1)
                 return "Scissor";            
         }
+        const convertTEnsor = (x)=>{
+            return tf.browser.fromPixels(x).resizeNearestNeighbor([150, 150]).toFloat().expandDims();
+        }
+
         const url_model = 'http://127.0.0.1:8887/model.json';
         const model = await tf.loadLayersModel(url_model);
         console.log(model.summary());
 
         const img1 = document.getElementById('img1');
-        let tensor1 = tf.browser.fromPixels(img1).resizeNearestNeighbor([150, 150]).toFloat().expandDims();
         const img2 = document.getElementById('img2');
-        let tensor2 = tf.browser.fromPixels(img2).resizeNearestNeighbor([150, 150]).toFloat().expandDims();
         const img3 = document.getElementById('img3');
-        let tensor3 = tf.browser.fromPixels(img3).resizeNearestNeighbor([150, 150]).toFloat().expandDims();
+        let tensor1 = convertTEnsor(img1);
+        let tensor2 = convertTEnsor(img2);
+        let tensor3 = convertTEnsor(img3);
 
         let pred1 = await model.predict(tensor1).data();
         const outp1 = document.getElementById('output1');
@@ -54,4 +59,3 @@
 </body>
 
 </html>
-
