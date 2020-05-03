@@ -1,6 +1,20 @@
-# RPC_Game
+Want to contribute ?? :\ <br>
+Welcome !!! :)<br>
+Just fork this repo and start working . Check the Requirements below <br>
+Waiting for your PR
+## Timeline : 
+May 5th 20 , 11.59 pm IST
+## Progress :
+<ul>
+  <li>ML Model : Done</li>
+  <li>Tensorflow js conversion : Done</li>
+  <li>Basic Web Page : Done</li>
+  <li>Prediction on test images : Working (Done)</li>
+</ul>
+
+# RPC_Game :
 A rock paper scissor game on web
-## Requirements
+## Requirements :
 1 . ML Model
 <ul>
   <li>1 . To develope a Machine Learning algorithm to classify and detect the rock paper and scissor hand gestures</li>
@@ -8,7 +22,7 @@ A rock paper scissor game on web
 </ul>
 2 . Web App
 <ul>
-  <li>1 . Front -End :  UI for the Web Game </li>
+  <li>1 . Front -End :  UI for the Web Game ( It should contain a DIV which can render live damera feed so that a frame can be craptured for playing the game) </li>
   <li>2 . Back-End : for Routes and integrating the Tensorflow JS </li>
 </ul>
 3 . Deployment
