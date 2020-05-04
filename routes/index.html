@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>R P C Game</title>
+  </head>
+  <body style="text-align: center;">
+    <h1 style="font-weight: bold;">Welcome to the RPC Game </h1>
+    <h2 style="color:blueviolet;">This Project uses a image classification Model made using Tensorflow . 
+      The model is coded in python and then converted using the Keras save_model converter (An API present in the 
+      Tensorflow JS )</h2>
+    <h3 >This model wil show you whether your uploaded image is a Rock or a Paper or a 
+      Scissor </h3>
+    <h3 >Upload Image</h3>
+    <form class="fileupload" action="upload" method="post" enctype="multipart/form-data">
+      <input type="file" name="upfile" value="">
+      <br><br>
+      <input type="submit" />
+    </form>
+    <p>Please note when you click submit, you will be redirected to a new page. <br>
+      I don't care your Privacy hence I will be saving your photo to retrain the model for increasing the accuracy</p>
+  </body>
+</html>
