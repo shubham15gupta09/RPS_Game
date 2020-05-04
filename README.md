@@ -1,20 +1,22 @@
 ## Timeline : 
 May 5th 20 , 11.59 pm IST
 <div>
-  <h1> UI </h1>
-  <img src="Result/Result!.png"
-  <br>
-  <img src="Result/Result2.png"
+    <h1> UI </h1>
+    <img src="Result/Result!.png"
+    <br>
+    <img src="Result/Result2.png"
 </div>
-</h1>Progress : </h1>
-<ul>
-  <li>ML Model : Done</li>
-  <li>Tensorflow js conversion : Done</li>
-  <li>Basic Web Page : Done</li>
-  <li>Prediction on test images : Working (Done)</li>
-  <li>Node JS setup : Done</li>
-  <li>Making Routs : Done</li>
-  </ul>
+<div>
+    <h1>Progress : </h1>
+    <ul>
+      <li>ML Model : Done</li>
+      <li>Tensorflow js conversion : Done</li>
+      <li>Basic Web Page : Done</li>
+      <li>Prediction on test images : Working (Done)</li>
+      <li>Node JS setup : Done</li>
+      <li>Making Routs : Done</li>
+      </ul>
+</div>
 # RPC_Game :
 A rock paper scissor game on web
 ## Requirements :
