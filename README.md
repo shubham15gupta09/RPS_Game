@@ -1,11 +1,10 @@
 ## Timeline : 
 May 5th 20 , 11.59 pm IST
 <h1> UI </h1>
-<img src="Result/Result1.png"
+<img src="Result/Result!.png"
 <br>
-
-
-
+<img src="Result/Result2.png"
+<br>
 ## Progress :
 <ul>
   <li>ML Model : Done</li>
