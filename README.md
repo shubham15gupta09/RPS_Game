@@ -22,7 +22,7 @@
 
 <div>
     <h1> UI </h1>
-    <img src="Result/Result!.png"
+    <img src="Result/Result1.png"
     <br>
     <img src="Result/Result2.png"
 </div>
