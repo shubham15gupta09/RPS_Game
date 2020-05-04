@@ -59,3 +59,25 @@
     <p>As the user is required to upload the image . We respect the Privacy of the user . We will use the Images for training our ML Model</p>
     <p>We are in the process of introducing the feature to request your Data</p>
 </div>
+
+
+# Tech Used
+1 . Tensorflow js<br>
+2 . JavaScript<br>
+3 . HTML , CSS<br>
+4 . NodeJs , Express , Express-fileupload <br>
+
+# How to use ?
+## Using LocalHost <br>
+1 . clone this project <br>
+2 . npm install<br>
+3 . npm start<br>
+4 . Just upload a photo by using the upload button and that's it !! You are good to go.<br>
+## Using Virtual Machine <br>
+1 . Create a VM on Google cloud / Azure  (os = linux) <br> 
+2 . Open the SSH terminal <br>
+3 . Install Nodejs <br>
+4 . clone this project  and * cd RPC_Game * <br>
+5 . npm start
+<br>
+Note you have to change the src for the image accordingly 
