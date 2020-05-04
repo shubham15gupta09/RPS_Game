@@ -68,16 +68,19 @@
 4 . NodeJs , Express , Express-fileupload <br>
 
 # How to use ?
-## Using LocalHost <br>
-1 . clone this project <br>
-2 . npm install<br>
-3 . npm start<br>
-4 . Just upload a photo by using the upload button and that's it !! You are good to go.<br>
-## Using Virtual Machine <br>
-1 . Create a VM on Google cloud / Azure  (os = linux) <br> 
-2 . Open the SSH terminal <br>
-3 . Install Nodejs <br>
-4 . clone this project  and * cd RPC_Game * <br>
-5 . npm start
-<br>
+<ul>
+    <li>Using LocalHost <br>
+        1 . clone this project <br>
+        2 . npm install<br>
+        3 . npm start<br>
+        4 . Just upload a photo by using the upload button and that's it !! You are good to go.<br>
+    </li>
+    <li>Using Virtual Machine <br>
+        1 . Create a VM on Google cloud / Azure  (os = linux) <br> 
+        2 . Open the SSH terminal <br>
+        3 . Install Nodejs <br>
+        4 . clone this project  and * cd RPC_Game * <br>
+        5 . npm start<br>    
+    </li>
+</ul>
 Note you have to change the src for the image accordingly 
