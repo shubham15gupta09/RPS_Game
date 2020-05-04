@@ -9,12 +9,6 @@
 </div>
 
 <div>
-    <h1> UI </h1>
-    <img src="Result/Result!.png"
-    <br>
-    <img src="Result/Result2.png"
-</div>
-<div>
     <h1>Progress : </h1>
     <ul>
       <li>ML Model : Done</li>
@@ -25,6 +19,14 @@
       <li>Node JS setup and Routes : Done</li>
       </ul>
 </div>
+
+<div>
+    <h1> UI </h1>
+    <img src="Result/Result!.png"
+    <br>
+    <img src="Result/Result2.png"
+</div>
+
 <div>
     <h1>Requirements :</h1>
     1 . ML Model
