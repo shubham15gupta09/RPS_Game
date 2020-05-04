@@ -17,8 +17,10 @@ May 5th 20 , 11.59 pm IST
       <li>Making Routs : Done</li>
       </ul>
 </div>
-# RPC_Game :
-A rock paper scissor game on web
+<div>
+    <h1>RPC_Game :</h1>
+    <p>A rock paper scissor game on web</p>
+</div>
 ## Requirements :
 1 . ML Model
 <ul>
@@ -36,7 +38,9 @@ A rock paper scissor game on web
   <li>2 . Virtual Machine ( weither in GCloud or Azure )</li>
   <li>3 . Docker Image</li>
 </ul>
+<div>
 <h1>Want to contribute ?? </h1>
 Welcome ! :)
 Just fork this repo and start working . Check the Requirements below <br>
 Waiting for your PR
+</div>
