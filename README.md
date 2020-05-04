@@ -28,7 +28,7 @@ A rock paper scissor game on web
   <li>2 . Virtual Machine ( weither in GCloud or Azure )</li>
   <li>3 . Docker Image</li>
 </ul>
-# Want to contribute ?? 
-Welcome ! :)<br>
+<h1>Want to contribute ?? </h1>
+Welcome ! :)
 Just fork this repo and start working . Check the Requirements below <br>
 Waiting for your PR
