@@ -20,9 +20,9 @@
       <li>ML Model : Done</li>
       <li>Tensorflow js conversion : Done</li>
       <li>Basic Web Page : Done</li>
-      <li>Prediction on test images : Working (Done)</li>
-      <li>Node JS setup : Done</li>
-      <li>Making Routs : Done</li>
+      <li>Tensorflow js integration : Done</li>       
+      <li>Classification on test images : Working (Done)</li>
+      <li>Node JS setup and Routes : Done</li>
       </ul>
 </div>
 <div>
@@ -45,7 +45,7 @@
     </ul>
 </div>
 <div>
-    <h1>Want to contribute ?? </h1><br>
+    <h1>Want to contribute ?? </h1>
     Welcome ! :)<br>
     Just fork this repo and start working . Check the Requirements below <br>
     Waiting for your PR
