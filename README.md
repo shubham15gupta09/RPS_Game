@@ -10,7 +10,9 @@ May 5th 20 , 11.59 pm IST
   <li>Tensorflow js conversion : Done</li>
   <li>Basic Web Page : Done</li>
   <li>Prediction on test images : Working (Done)</li>
-</ul>
+  <li>Node JS setup : Done</li>
+  <li>Making Routs : Done</li>
+  </ul>
 
 # RPC_Game :
 A rock paper scissor game on web
