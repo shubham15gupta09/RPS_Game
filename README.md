@@ -46,9 +46,16 @@
       <li>3 . Docker Image</li>
     </ul>
 </div>
+
 <div>
     <h1>Want to contribute ?? </h1>
     Welcome ! :)<br>
     Just fork this repo and start working . Check the Requirements below <br>
     Waiting for your PR
+</div>
+
+<div>
+    <h1>Privacy Concern</h1>
+    <p>As the user is required to upload the image . We respect the Privacy of the user . We will use the Images for training our ML Model</p>
+    <p>We are in the process of introducing the feature to request your Data</p>
 </div>
