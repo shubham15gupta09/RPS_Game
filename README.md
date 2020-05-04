@@ -1,7 +1,3 @@
-Want to contribute ?? :\ <br>
-Welcome !!! :)<br>
-Just fork this repo and start working . Check the Requirements below <br>
-Waiting for your PR
 ## Timeline : 
 May 5th 20 , 11.59 pm IST
 ## Progress :
@@ -12,6 +8,7 @@ May 5th 20 , 11.59 pm IST
   <li>Prediction on test images : Working (Done)</li>
   <li>Node JS setup : Done</li>
   <li>Making Routs : Done</li>
+  
   </ul>
 
 # RPC_Game :
@@ -33,3 +30,7 @@ A rock paper scissor game on web
   <li>2 . Virtual Machine ( weither in GCloud or Azure )</li>
   <li>3 . Docker Image</li>
 </ul>
+## Want to contribute ?? :\ 
+Welcome !!! :)<br>
+Just fork this repo and start working . Check the Requirements below <br>
+Waiting for your PR
