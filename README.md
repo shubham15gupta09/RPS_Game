@@ -17,6 +17,7 @@
       <li>Tensorflow js integration : Done</li>       
       <li>Classification on test images : Working (Done)</li>
       <li>Node JS setup and Routes : Done</li>
+      <li>Deploymentb : Yet to be done</li>
       </ul>
 </div>
 
@@ -63,7 +64,7 @@
 <div>
     <h1>Privacy Concern</h1>
     <p>As the user is required to upload the image . We respect the Privacy of the user . We will use the Images for training our ML Model</p>
-    <p>We are in the process of introducing the feature to request your Data</p>
+    <p>We are in the process of introducing the feature to delete your Data once you close the game</p>
 </div>
 
 
