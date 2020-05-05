@@ -6,7 +6,7 @@
 <div>
     <h1>Timeline</h1>  
     <p>May 5th 20 , 11.59 pm IST</p>
-    <h3>Completed on Time</p>
+    <h3>Completed on Time :) Yeh !</p>
 </div>
 
 <div>
