@@ -83,7 +83,7 @@
 
 
 # Tech Used
-1 . Tensorflow , Tensorflow JS , <br>
+1 . Tensorflow , Tensorflow JS , Keras <br>
 2 . JavaScript , Python<br>
 3 . HTML , CSS<br>
 4 . NodeJs , Express , Express-fileupload <br>
