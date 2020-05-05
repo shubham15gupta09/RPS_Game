@@ -22,7 +22,11 @@
 
 <div>
     <h1> UI </h1>
-    <img src="Result/Result1.jpg"
+    <img src="Result/res_1.png"
+    <br>
+    <img src="Result/res_3.png"
+    <br>
+    <img src="Result/res_2.png"
     <br>
 </div>
 
