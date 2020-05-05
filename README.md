@@ -6,6 +6,7 @@
 <div>
     <h1>Timeline</h1>  
     <p>May 5th 20 , 11.59 pm IST</p>
+    <h3>Completed on Time</p>
 </div>
 
 <div>
@@ -17,7 +18,7 @@
       <li>Tensorflow js integration : Done</li>       
       <li>Classification on test images : Working (Done)</li>
       <li>Node JS setup and Routes : Done</li>
-      <li>Deploymentb : Yet to be done</li>
+      <li>Deploymentb : Tested on Google Cloud Using a Virtual machine (Done)</li>
       </ul>
 </div>
 
