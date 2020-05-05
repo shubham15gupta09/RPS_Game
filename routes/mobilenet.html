@@ -6,7 +6,7 @@
 
 <body>
     <h3>Hold Down !!! <br>Processing Results . . . . </h3>
-    <img id="img1" src="http://35.202.71.128/images/image.jpg" style="width: 50%;height:50%;"></img><br>
+    <img id="img1" src="http://localhost:3000/images/image.jpg" style="width: 50%;height:50%;"></img><br>
     <br>
     <div id="output1" style="font-size:24px;"></div>
     <br>
@@ -37,7 +37,7 @@
             return tf.browser.fromPixels(x).resizeNearestNeighbor([150, 150]).toFloat().expandDims();
         }
 
-        const url_model = 'http://35.202.71.128/model.json';
+        const url_model = 'http://localhost:3000/model.json';
         const model = await tf.loadLayersModel(url_model);
         const img1 = document.getElementById('img1');
         let tensor1 = convertTEnsor(img1);
