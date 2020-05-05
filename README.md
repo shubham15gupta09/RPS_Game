@@ -23,6 +23,7 @@
 
 <div>
     <h1> UI </h1>
+    <h3> In PC </h3>
     <img src="Result/res_1.png">
     <p>The Very First Page / Landing Page for the Game </p>
     <br>
@@ -32,6 +33,17 @@
     <img src="Result/res_2.png">
     <p>Console Log for getting the information regardinhg the prediction from Computer </p>
     <br>
+    <img src="Result/res_5.png>
+    <p>Deployed on Gogle Cloud Result - Landing page</p>
+    <br>
+    <img src="Result/res_4.png>
+    <p>Deployed on Gogle Cloud Result</p>
+    <br>
+    <h3> On Mobile Platform </h3>
+    <img src="Result/res_6.PNG>
+    <p>Deployed on Gogle Cloud Result - Landing Page on mobile</p>
+    <br>
+              
 </div>
 
 <div>
