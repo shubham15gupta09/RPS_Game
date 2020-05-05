@@ -105,5 +105,7 @@
     </li>
 </ul>
 Note you have to change the src for the image accordingly <br>
-## Special Thanks
+<div>
+    <h3>Special Thanks</h3>
 <p><a href="https://github.com/mohakbahal">Mohak Bahal</a> : For solving issue with Keras Model Conversion </p> 
+</div>
