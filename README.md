@@ -41,7 +41,7 @@
     <br>
     <h3> On Mobile Platform </h3>
     <img src="Result/res_6.PNG">
-    <p>Deployed on Gogle Cloud Result - Landing Page on mobile</p>
+    <p>Deployed on Gogle Cloud - Landing Page on mobile</p>
     <br>
               
 </div>
@@ -76,7 +76,7 @@
 <div>
     <h1>Privacy Concern</h1>
     <p>As the user is required to upload the image . We respect the Privacy of the user . We will use the Images for training our ML Model</p>
-    <p>We are in the process of introducing the feature to delete your Data once you close the game</p>
+    <p>I am in the process of introducing the feature to delete your Data once you close the game</p>
 </div>
 
 
