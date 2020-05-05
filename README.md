@@ -22,13 +22,13 @@
 
 <div>
     <h1> UI </h1>
-    <img src="Result/res_1.png"
+    <img src="Result/res_1.png">
     <p>The Very First Page / Landing Page for the Game </p>
     <br>
-    <img src="Result/res_3.png"
+    <img src="Result/res_3.png">
     <p>The Result Page</p>
     <br>
-    <img src="Result/res_2.png"
+    <img src="Result/res_2.png">
     <p>Console Log for getting the information regardinhg the prediction from Computer </p>
     <br>
 </div>
