@@ -1,5 +1,5 @@
 <div>
-    <h1>RPC_Game :</h1>
+    <h1>RPS_Game :</h1>
     <p>A rock paper scissor game on web</p>
 </div>
 
