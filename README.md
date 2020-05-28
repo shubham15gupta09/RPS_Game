@@ -1,3 +1,7 @@
+## Deployment
+Deployed on Azure : https://gamerps.azurewebsites.net/
+
+
 <div>
     <h1>RPS_Game :</h1>
     <p>A rock paper scissor game on web</p>
