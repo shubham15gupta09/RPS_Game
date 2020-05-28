@@ -6,7 +6,7 @@ var upload = require("express-fileupload");
 app.use(upload()); // configure middleware
 
 app.get("/", function (req, res) {
-  res.sendFile(__dirname + "/routes/index.html");
+  res.sendfile("./routes/index.html");
 });
 function clean_up(){
   const path = '/images/image.jpg';
@@ -20,21 +20,21 @@ app.post("/upload", function (req, res) {
     var uploadpath = __dirname + "/images/" + name;
     file.mv(uploadpath, function (err) {
       console.log("File Uploaded", name);
-      res.sendFile(__dirname+"/routes/mobilenet.html");
+      res.sendfile("./routes/mobilenet.html");
       clean_up();
     });
   }
 });
 app.get("/model.json" , function(req,res){
-  res.sendFile(__dirname + "/tf_modelfile/model.json");
+  res.sendfile("./tf_modelfile/model.json");
 });
 
 app.get("/group1-shard1of1.bin" , function(req,res){
-  res.sendFile(__dirname + "/tf_modelfile/group1-shard1of1.bin");
+  res.sendfile("./tf_modelfile/group1-shard1of1.bin");
 });
 
 app.get("/images/image.jpg",(req,res)=>{
-  res.sendFile(__dirname+"/images/image.jpg")
+  res.sendfile("./images/image.jpg")
 });
 
 const PORT = process.env.PORT || 3000;
