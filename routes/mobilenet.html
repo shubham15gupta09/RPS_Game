@@ -4,9 +4,9 @@
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"> </script>
 </head>
 
-<body>
+<body style="align-content: center;">
     <h3>Hold Down !!! <br>Processing Results . . . . </h3>
-    <img id="img1" src="http://localhost:3000/images/image.jpg" style="width: 50%;height:50%;"></img><br>
+    <img id="img1" src="./images/image.jpg" style="width: 50%;height:50%;"></img><br>
     <br>
     <div id="output1" style="font-size:24px;"></div>
     <br>
@@ -37,7 +37,7 @@
             return tf.browser.fromPixels(x).resizeNearestNeighbor([150, 150]).toFloat().expandDims();
         }
 
-        const url_model = 'http://localhost:3000/model.json';
+        const url_model = './model.json';
         const model = await tf.loadLayersModel(url_model);
         const img1 = document.getElementById('img1');
         let tensor1 = convertTEnsor(img1);
@@ -53,27 +53,35 @@
         if( res == "Paper"){
             if(pred1 == "Rock"){
                 x = "You Lose :(";
-                
             }
-            if(pred1 == "Scissor"){
+            else if(pred1 == "Scissor"){
                 x = "You Win :)";
             }
+            else{
+                x = "it's a tie" ;
+            }   
         }
         else if(res == "Rock"){
             if(pred1 == "Scissor"){
                 x = "You Win :)";
             }
-            if(pred1 == "Paper"){
+            else if(pred1 == "Paper"){
                 x = "You Lose :(";
-            }            
+            }    
+            else{
+                x = "it's a tie" ;
+            }           
         }
         else if(res == "Scissor"){
             if(pred1 == "Paper"){
                 x = "You Lose :(";
             }
-            if(pred1 == "Rock"){
+            else if(pred1 == "Rock"){
                 x = "You Win :)";
-            }            
+            }         
+            else{
+                x = "it's a tie" ;
+            }   
         }
         else{
             x = "Oops DSomething Went Wrong :)";
