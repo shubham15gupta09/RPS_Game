@@ -8,9 +8,9 @@ app.use(upload()); // configure middleware
 app.get("/", function (req, res) {
   res.sendfile("./routes/index.html");
 });
-function clean_up(){
+function clean_up() {
   const path = '/images/image.jpg';
-  fs.unlink(path , ()=>{});
+  fs.unlink(path, () => { });
 }
 app.post("/upload", function (req, res) {
   console.log(req.files);
@@ -25,19 +25,19 @@ app.post("/upload", function (req, res) {
     });
   }
 });
-app.get("/model.json" , function(req,res){
+app.get("/model.json", function (req, res) {
   res.sendfile("./tf_modelfile/model.json");
 });
 
-app.get("/group1-shard1of1.bin" , function(req,res){
+app.get("/group1-shard1of1.bin", function (req, res) {
   res.sendfile("./tf_modelfile/group1-shard1of1.bin");
 });
 
-app.get("/images/image.jpg",(req,res)=>{
+app.get("/images/image.jpg", (req, res) => {
   res.sendfile("./images/image.jpg")
 });
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT , (req,res)=>{
+app.listen(PORT, (req, res) => {
   console.log(`server started on port : ${PORT}`);
 });

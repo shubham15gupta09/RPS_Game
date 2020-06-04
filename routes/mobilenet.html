@@ -1,4 +1,5 @@
 <html>
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"> </script>
@@ -8,6 +9,7 @@
     <h3>Hold Down !!! <br>Processing Results . . . . </h3>
     <img id="img1" src="./images/image.jpg" style="width: 50%;height:50%;"></img><br>
     <br>
+    <br>
     <div id="output1" style="font-size:24px;"></div>
     <br>
     <br>
@@ -15,25 +17,25 @@
 </body>
 <script>
     async function run() {
-        function naming (x){
-            if (x[0]==1)
+        function naming(x) {
+            if (x[0] == 1)
                 return "Paper";
-            if (x[1]==1)
+            if (x[1] == 1)
                 return "Rock";
-            if (x[2]==1)
-                return "Scissor";            
+            if (x[2] == 1)
+                return "Scissor";
         }
-        function naming_res (x){
-            if (x==0)
+        function naming_res(x) {
+            if (x == 0)
                 return "Paper";
-            if (x==1)
+            if (x == 1)
                 return "Rock";
-            if (x==2)
-                return "Scissor";   
+            if (x == 2)
+                return "Scissor";
         }
-        let ran_no = Math.floor(Math.random() *2 ) ;
-        let res = naming_res(ran_no) ;
-        const convertTEnsor = (x)=>{
+        let ran_no = Math.floor(Math.random() * 2);
+        let res = naming_res(ran_no);
+        const convertTEnsor = (x) => {
             return tf.browser.fromPixels(x).resizeNearestNeighbor([150, 150]).toFloat().expandDims();
         }
 
@@ -43,47 +45,47 @@
         let tensor1 = convertTEnsor(img1);
         let pred1 = await model.predict(tensor1).data();
         const outp1 = document.getElementById('output1');
-        pred1 = naming(pred1) ;
-        outp1.innerHTML += pred1 ;
+        pred1 = naming(pred1);
+        outp1.innerHTML += pred1;
 
         let x = "";
         console.log("User : " + pred1);
         let outp2 = await document.getElementById('res_out');
-        console.log("computer generates : " + res) ;
-        if( res == "Paper"){
-            if(pred1 == "Rock"){
+        console.log("computer generates : " + res);
+        if (res == "Paper") {
+            if (pred1 == "Rock") {
                 x = "You Lose :(";
             }
-            else if(pred1 == "Scissor"){
+            else if (pred1 == "Scissor") {
                 x = "You Win :)";
             }
-            else{
-                x = "it's a tie" ;
-            }   
+            else {
+                x = "it's a tie";
+            }
         }
-        else if(res == "Rock"){
-            if(pred1 == "Scissor"){
+        else if (res == "Rock") {
+            if (pred1 == "Scissor") {
                 x = "You Win :)";
             }
-            else if(pred1 == "Paper"){
-                x = "You Lose :(";
-            }    
-            else{
-                x = "it's a tie" ;
-            }           
-        }
-        else if(res == "Scissor"){
-            if(pred1 == "Paper"){
+            else if (pred1 == "Paper") {
                 x = "You Lose :(";
             }
-            else if(pred1 == "Rock"){
-                x = "You Win :)";
-            }         
-            else{
-                x = "it's a tie" ;
-            }   
+            else {
+                x = "it's a tie";
+            }
         }
-        else{
+        else if (res == "Scissor") {
+            if (pred1 == "Paper") {
+                x = "You Lose :(";
+            }
+            else if (pred1 == "Rock") {
+                x = "You Win :)";
+            }
+            else {
+                x = "it's a tie";
+            }
+        }
+        else {
             x = "Oops DSomething Went Wrong :)";
         }
         outp2.innerHTML += x;
@@ -92,4 +94,5 @@
     run();
 </script>
 </body>
+
 </html>
