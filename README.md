@@ -1,32 +1,8 @@
-## Deployment
-Deployed on Azure : https://gamerps.azurewebsites.net/
-
-
 <div>
     <h1>RPS_Game :</h1>
     <p>A rock paper scissor game on web</p>
 </div>
 
-<div>
-    <h1>Timeline</h1>  
-    <p>May 5th 20 , 11.59 pm IST</p>
-    <h3>Completed on Time :) Yeh !</p>
-</div>
-
-<div>
-    <h1>Progress : </h1>
-    <ul>
-      <li>ML Model : Done</li>
-      <li>Tensorflow js conversion : Done</li>
-      <li>Basic Web Page : Done</li>
-      <li>Tensorflow js integration : Done</li>       
-      <li>Classification on test images : Working (Done)</li>
-      <li>Node JS setup and Routes : Done</li>
-      <li>Deploymentb : Tested on Google Cloud Using a Virtual machine (Done)</li>
-      </ul>
-</div>
-        <h3> I have deleted the VM , to avoid extra charges .Hence not able to share a link to use this .
-    Checkout the ScreenShot below</h3>
 <div>
     <h1> UI </h1>
     <h3> In PC </h3>
