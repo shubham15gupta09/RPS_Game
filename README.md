@@ -1,6 +1,6 @@
 <div>
     <h1>RPS_Game :</h1>
-    <p>A rock paper scissor game on web</p>
+    <p>A Rock Paper and Scissor game on the Web Platform.</p>
 </div>
 
 <div>
